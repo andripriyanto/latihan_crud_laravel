@@ -1,0 +1,20 @@
+LARAVEL
+1. create db
+2. config db di env
+3. bikin migration/create table
+php artisan make:migration create_nama_tabel
+4. mulai migration/buat table di db
+php artisan migrate
+5. view ada di resource/view
+
+// Perintah membuat Controller
+php artisan make:controller NamaController
+
+Contoh:
+php artisan make:controller UserController
+
+// Perintah membuat Model
+php artisan make:model NamaModel
+
+Contoh:
+php artisan make:model User
